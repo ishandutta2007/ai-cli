@@ -6,6 +6,10 @@ Unified CLI for LLMs, image gen (DALL·E, Flux, SD3, ...), video (Runway, Luma, 
 ```bash
 pip install ai-cli
 ```
+
+Directory structure
+
+```
 ai-cli/
 ├── ai-cli/
 │   ├── __init__.py
@@ -24,3 +28,5 @@ ai-cli/
 ├── README.md
 ├── LICENSE                  # MIT or Apache-2.0
 └── setup.cfg                # Optional, if you prefer over pyproject only
+```
+
