@@ -2,12 +2,12 @@
 
 Unified CLI for LLMs, image gen (DALL·E, Flux, SD3, ...), video (Runway, Luma, Kling, ...), TTS/STT, music (Udio/Suno), etc.
 
-## Install
+### Install
 ```bash
 pip install ai-cli
 ```
 
-Directory structure
+### Directory structure
 
 ```
 ai-cli/
