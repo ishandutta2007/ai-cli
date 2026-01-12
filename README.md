@@ -1,7 +1,13 @@
-# ai-cli
+# ai-cli — Access **every** AI model from your terminal
 
-aim/
-├── aim/
+Unified CLI for LLMs, image gen (DALL·E, Flux, SD3, ...), video (Runway, Luma, Kling, ...), TTS/STT, music (Udio/Suno), etc.
+
+## Install
+```bash
+pip install ai-cli
+```
+ai-cli/
+├── ai-cli/
 │   ├── __init__.py
 │   ├── cli.py               # Main Click CLI group + core commands
 │   ├── models.py            # Model registration, base classes, get_model()

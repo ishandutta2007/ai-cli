@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "aim"
+name = "ai-cli"
 version = "0.1.0"
 description = "Access ALL AI models (LLM, image, video, audio, ...) from the command line — plugin extensible"
 readme = "README.md"
@@ -24,11 +24,11 @@ dependencies = [
 ]
 
 [project.scripts]
-aim = "aim.cli:cli"
+ai-cli = "ai-cli.cli:cli"
 
-[project.entry-points."aim.models"]
+[project.entry-points."ai-cli.models"]
 # Example built-in (dummy) — real ones come from plugins
-dummy-llm = "aim.providers.dummy:DummyLLM"
+dummy-llm = "ai-cli.providers.dummy:DummyLLM"
 
-[project.entry-points."aim.commands"]
+[project.entry-points."ai-cli.commands"]
 # Plugins can register extra top-level commands
